@@ -7,6 +7,7 @@
 ## Description
 ### Market Basket Analysis using Apriori Algorithm
 
+
 * Developed a data mining project to analyze customer purchasing behavior using the Apriori algorithm.
 * Extracted frequent itemsets from transaction data to identify associations between products.
 * Implemented in Python using the mlxtend library for Apriori and association rule mining.
@@ -20,3 +21,4 @@
 
 ### Demo Video
 https://www.youtube.com/watch?v=ElGygSBRbfI
+...
