@@ -1,4 +1,3 @@
-
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -7,6 +6,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import { ThemeProvider } from "./components/theme/theme-provider";
+
+if (import.meta.env.DEV) {
+  console.log("App running in development mode");
+}
 
 const queryClient = new QueryClient();
 
@@ -28,3 +31,12 @@ const App = () => (
 );
 
 export default App;
+
+export const PlaceholderContext = () => null;
+
+const UNUSED_CONSTANT = "RetailInsights";
+
+const noop = () => {
+};
+
+noop();
